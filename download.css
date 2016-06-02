@@ -1,0 +1,59 @@
+@charset "utf-8";
+html{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;}
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, td, img, div, dl, dt, dd { margin: 0; padding: 0; border: 0; }
+body{background:#EEE; color:#555; font-size:16px; margin:0 auto; max-width:640px;font-family:'宋体','微软雅黑', '黑体',"Helvetica Neue","Helvetica","Arial","sans-serif";}
+a,a:link,a:active,a:hover,a:visited{color:#555; text-decoration:none;}
+
+@media only screen and (max-width:320px){body{font-size:10px}}
+@media only screen and (max-width:360px) and (min-width:320px){body{font-size:12px}}
+@media only screen and (max-width:360px) and (min-width:350px){body{font-size:12px}}
+@media only screen and (max-width:480px) and (min-width:360px){body{font-size:14px}}
+@media only screen and (max-width:480px) and (min-width:470px){body{font-size:14px}}
+@media only screen and (max-width:560px) and (min-width:480px){body{font-size:16px}}
+@media only screen and (max-width:570px) and (min-width:560px){body{font-size:16px}}
+@media only screen and (max-width:640px) and (min-width:570px){body{font-size:16px}}
+@media only screen and (max-width:640px) and (min-width:630px){body{font-size:16px}}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;/*隐藏滚动条*/
+}
+
+#box{
+    width: 640px;
+    height: 960px;
+    overflow: hidden;
+    position: absolute;
+    left:50%;
+    top:0;
+    margin-left: -320px;
+    transform-origin:top;
+}
+
+.page_one{
+    background:url("img/fff.png") no-repeat center center;
+    background-size: 100%;
+    z-index: 10;
+    width: 100%;
+    height: 100%;text-align: center;
+}
+
+
+.page_one div{position: absolute; }
+
+.page_one > div:nth-child(1){width: 326px; height: 106px; background: url("img/header.png") no-repeat;
+    background-size:100%;
+    left: 50%; top: 4%;
+margin-left: -163px;}
+
+.page_one > div:nth-child(2){width: 240px; height: 476px; left: 50%; top: 20%;margin-left: -120px; background: url("img/shouji.png") no-repeat;background-size: 100% 100%; }
+
+.page_one > div:nth-child(3){width: 140px ;height: 140px; background: url("img/weima.png") no-repeat; left: 19%; top: 72%;}
+.page_one > div:nth-child(4){width: 240px ;height: 60px; background: url("img/anzhuo.png") no-repeat; left: 45%; top: 72%;}
+.page_one > div:nth-child(5){width: 240px ;height: 60px; background: url("img/pingguo%20.png") no-repeat; left: 45%; top: 80%;
+    background-size: 100% 100%;
+}
+
+
+
