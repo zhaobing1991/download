@@ -39,7 +39,6 @@ html,body{
     height: 100%;text-align: center;
 }
 
-
 .page_one div{position: absolute; }
 
 .page_one > div:nth-child(1){width: 326px; height: 106px; background: url("img/header.png") no-repeat;
@@ -53,6 +52,11 @@ margin-left: -163px;}
 .page_one > div:nth-child(4){width: 240px ;height: 60px; background: url("img/anzhuo.png") no-repeat; left: 45%; top: 72%;}
 .page_one > div:nth-child(5){width: 240px ;height: 60px; background: url("img/pingguo%20.png") no-repeat; left: 45%; top: 80%;
     background-size: 100% 100%;
+}
+.page_one div a{
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 
