@@ -14,5 +14,8 @@ if(desW/desH<winW/winH){
 
 loc.addEventListener("touchstart",function(){window.location="https://itunes.apple.com/us/app/guo-shang-yi-gou/id1098039649?mt=8&uo=4";
 });
+document.body.addEventListener('touchmove', function (event) {
+    event.preventDefault();
+}, false);
 
 
